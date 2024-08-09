@@ -1,8 +1,9 @@
 
 export default function Productspage() {
-  
   return (
-    <div>page
-    </div>
+    <>
+      <div>Products page</div>
+      <a href="/products/new">Products/new</a>
+    </>
   )
 }

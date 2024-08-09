@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Little reminder: All the views are in app folder
 
-# techonolgies 
+# technologies 
 - db: Prisma
 
 ## Getting Started

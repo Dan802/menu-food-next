@@ -5,6 +5,10 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient()
 
 async function main() {
+
+  // Deleting all records with Prisma Migrate
+  // npx prisma migrate reset
+
   console.log('Adding the seeding data to the data base')
   try {
     await prisma.category.createMany({
